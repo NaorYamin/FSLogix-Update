@@ -1,17 +1,3 @@
-<#
-.SYNOPSIS
-    Script written to automatically update FsLogix with the latest version on AVD hosts
-    Code based on https://github.com/srozemuller/Windows-Virtual-Desktop/blob/master/Application-Management/FSLogix/install-fslogix.ps1 and https://github.com/aaronparker/FSLogix/blob/main/Intune/Install-FslogixApps.ps1
-    Attention: this script is specifically made for x64 machines, there is no support for x86 machines
-.EXAMPLE
-    ./Update-FsLogixClient.ps1
-.NOTES
-    Author: Padure Sergio
-    Company: Raindrops.dev
-    Last Edit: 2022-09-18
-    Version 0.1 Initial functional code
-#>
-
 #Clearing the Screen
 Clear-Host
 
